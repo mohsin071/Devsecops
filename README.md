@@ -132,7 +132,7 @@ Create a Jenkins webhook
 
 Configure CI/CD Pipeline in Jenkins:
 Create a CI/CD pipeline in Jenkins to automate your application deployment.
-pipeline {
+'''pipeline {
     agent any
     tools {
         jdk 'jdk17'
@@ -173,7 +173,7 @@ pipeline {
             }
         }
     }
-}
+}'''
 Certainly, here are the instructions without step numbers:
 
 Install Dependency-Check and Docker Tools in Jenkins
@@ -214,7 +214,7 @@ Enter your DockerHub credentials (Username and Password) and give the credential
 Click "OK" to save your DockerHub credentials.
 Now, you have installed the Dependency-Check plugin, configured the tool, and added Docker-related plugins along with your DockerHub credentials in Jenkins. You can now proceed with configuring your Jenkins pipeline to include these tools and credentials in your CI/CD process.
 
-pipeline{
+'''pipeline{
     agent any
     tools{
         jdk 'jdk17'
@@ -287,7 +287,7 @@ pipeline{
             }
         }
     }
-}
+}'''
 
 
 If you get docker login failed errorr
